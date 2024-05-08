@@ -15,8 +15,8 @@ class DiceRoller extends StatefulWidget {
 
 // private class
 class _DiceRollerState extends State<DiceRoller> {
-  var activeDiceImage = 'assets/images/avengers.png';
-  var currentDiceRoll = 2;
+  var activeDiceImage = 'assets/images/dice-13.png';
+  var currentDiceRoll = 13;
 
   void rollDice() {
     setState(() {
